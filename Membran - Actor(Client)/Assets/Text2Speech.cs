@@ -5,27 +5,36 @@ using UnityEngine;
 public class Text2Speech : Photon.PunBehaviour {
     
     private string result = "";
-    private string hypothesis = "";
+    private bool stop = false;
 
 	// Use this for initialization
 	void Start () {
-        //PhotonNetwork.ConnectUsingSettings("v1.0");
+        PhotonNetwork.ConnectUsingSettings("v1.0");
 	}
 
     [PunRPC]
-    public void sendString(string result, string hypothesis)
+    public void sendString(string result)
     {
-        this.result = result;
-        WindowsVoice.theVoice.speak(result);
-        this.hypothesis = hypothesis;
-        WindowsVoice.theVoice.speak(hypothesis);
+        if (!result.Equals("")) {
+            this.result = result;
+        }
+
+        bool stopIndicator = false;
+        if (result.ToLower().Equals("stopp")) {
+            stop = !stop;
+            stopIndicator = true;
+        }
+
+        if (!stop && !stopIndicator && !result.Equals("")) {
+            WindowsVoice.theVoice.speak(result);
+        }
     }
 
     override
     public void OnConnectedToMaster()
     {
         RoomOptions rOpts = new RoomOptions() { IsVisible = false, MaxPlayers = 5 };
-        PhotonNetwork.JoinOrCreateRoom("Speech", rOpts, TypedLobby.Default);
+        PhotonNetwork.JoinOrCreateRoom("Actor", rOpts, TypedLobby.Default);
     }
 	
 	// Update is called once per frame
@@ -35,10 +44,8 @@ public class Text2Speech : Photon.PunBehaviour {
 
     void OnGUI()
     {
-        GUI.Label(new Rect(20, 40, 1000, 20), "result");
-        GUI.Label(new Rect(20, 60, 1000, 20), result);
-        GUI.Label(new Rect(20, 80, 1000, 20), "hypothesis");
-        GUI.Label(new Rect(20, 100, 1000, 20), hypothesis);
-        GUI.Label(new Rect(20, 120, 1000, 20), PhotonNetwork.connectionStateDetailed.ToString());
+        GUI.Label(new Rect(20, 20, 1000, 20), PhotonNetwork.connectionStateDetailed.ToString());
+        GUI.Label(new Rect(20, 40, 1000, 20), "Voice output activated: " + (!stop).ToString());
+        GUI.Label(new Rect(20, 60, 1000, 20), "Uni voice input: " + result);
     }
 }
