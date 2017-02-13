@@ -10,7 +10,7 @@ public class Text2Speech : Photon.PunBehaviour {
 	// Use this for initialization
 	void Start () {
         PhotonNetwork.ConnectUsingSettings("v1.0");
-	}
+    }
 
     [PunRPC]
     public void sendString(string result)
