@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 233d173aaadbb4b49a9115e49c85928f
+timeCreated: 1464088157
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: h:Head
+    100004: h:HeadEE
+    100006: h:Hips
+    100008: h:LeftArm
+    100010: h:LeftFingerBase
+    100012: h:LeftFoot
+    100014: h:LeftFootEE
+    100016: h:LeftForeArm
+    100018: h:LeftHand
+    100020: h:LeftHandIndex1
+    100022: h:LeftHandIndex2
+    100024: h:LeftHandIndex3
+    100026: h:LeftHandIndexEE
+    100028: h:LeftHandMiddle1
+    100030: h:LeftHandMiddle2
+    100032: h:LeftHandMiddle3
+    100034: h:LeftHandMiddleEE
+    100036: h:LeftHandPinky1
+    100038: h:LeftHandPinky2
+    100040: h:LeftHandPinky3
+    100042: h:LeftHandPinkyEE
+    100044: h:LeftHandRing1
+    100046: h:LeftHandRing2
+    100048: h:LeftHandRing3
+    100050: h:LeftHandRingEE
+    100052: h:LeftHandThumb1
+    100054: h:LeftHandThumb2
+    100056: h:LeftHandThumb3
+    100058: h:LeftHandThumbEE
+    100060: h:LeftLeg
+    100062: h:LeftShoulder
+    100064: h:LeftToeBase
+    100066: h:LeftUpLeg
+    100068: h:Neck
+    100070: h:RightArm
+    100072: h:RightFingerBase
+    100074: h:RightFoot
+    100076: h:RightFootEE
+    100078: h:RightForeArm
+    100080: h:RightHand
+    100082: h:RightHandIndex1
+    100084: h:RightHandIndex2
+    100086: h:RightHandIndex3
+    100088: h:RightHandIndexEE
+    100090: h:RightHandMiddle1
+    100092: h:RightHandMiddle2
+    100094: h:RightHandMiddle3
+    100096: h:RightHandMiddleEE
+    100098: h:RightHandPinky1
+    100100: h:RightHandPinky2
+    100102: h:RightHandPinky3
+    100104: h:RightHandPinkyEE
+    100106: h:RightHandRing1
+    100108: h:RightHandRing2
+    100110: h:RightHandRing3
+    100112: h:RightHandRingEE
+    100114: h:RightHandThumb1
+    100116: h:RightHandThumb2
+    100118: h:RightHandThumb3
+    100120: h:RightHandThumbEE
+    100122: h:RightLeg
+    100124: h:RightShoulder
+    100126: h:RightToeBase
+    100128: h:RightUpLeg
+    100130: h:Spine
+    100132: h:Spine1
+    100134: h:Spine2
+    100136: h:Spine3
+    100138: h:Spine4
+    100140: MeshNode
+    400000: //RootNode
+    400002: h:Head
+    400004: h:HeadEE
+    400006: h:Hips
+    400008: h:LeftArm
+    400010: h:LeftFingerBase
+    400012: h:LeftFoot
+    400014: h:LeftFootEE
+    400016: h:LeftForeArm
+    400018: h:LeftHand
+    400020: h:LeftHandIndex1
+    400022: h:LeftHandIndex2
+    400024: h:LeftHandIndex3
+    400026: h:LeftHandIndexEE
+    400028: h:LeftHandMiddle1
+    400030: h:LeftHandMiddle2
+    400032: h:LeftHandMiddle3
+    400034: h:LeftHandMiddleEE
+    400036: h:LeftHandPinky1
+    400038: h:LeftHandPinky2
+    400040: h:LeftHandPinky3
+    400042: h:LeftHandPinkyEE
+    400044: h:LeftHandRing1
+    400046: h:LeftHandRing2
+    400048: h:LeftHandRing3
+    400050: h:LeftHandRingEE
+    400052: h:LeftHandThumb1
+    400054: h:LeftHandThumb2
+    400056: h:LeftHandThumb3
+    400058: h:LeftHandThumbEE
+    400060: h:LeftLeg
+    400062: h:LeftShoulder
+    400064: h:LeftToeBase
+    400066: h:LeftUpLeg
+    400068: h:Neck
+    400070: h:RightArm
+    400072: h:RightFingerBase
+    400074: h:RightFoot
+    400076: h:RightFootEE
+    400078: h:RightForeArm
+    400080: h:RightHand
+    400082: h:RightHandIndex1
+    400084: h:RightHandIndex2
+    400086: h:RightHandIndex3
+    400088: h:RightHandIndexEE
+    400090: h:RightHandMiddle1
+    400092: h:RightHandMiddle2
+    400094: h:RightHandMiddle3
+    400096: h:RightHandMiddleEE
+    400098: h:RightHandPinky1
+    400100: h:RightHandPinky2
+    400102: h:RightHandPinky3
+    400104: h:RightHandPinkyEE
+    400106: h:RightHandRing1
+    400108: h:RightHandRing2
+    400110: h:RightHandRing3
+    400112: h:RightHandRingEE
+    400114: h:RightHandThumb1
+    400116: h:RightHandThumb2
+    400118: h:RightHandThumb3
+    400120: h:RightHandThumbEE
+    400122: h:RightLeg
+    400124: h:RightShoulder
+    400126: h:RightToeBase
+    400128: h:RightUpLeg
+    400130: h:Spine
+    400132: h:Spine1
+    400134: h:Spine2
+    400136: h:Spine3
+    400138: h:Spine4
+    400140: MeshNode
+    4300000: MeshNode
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: MeshNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
