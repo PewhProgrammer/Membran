@@ -29,7 +29,7 @@ For details on our code of conduct and the process for submitting pull requests 
 * **Johannes Geiser** - *Initial/Ongoing work*
 * **Felix Wilcken** - *Initial work*
 
-See also the list of [contributors](https://github.com/your/PewhProgrammer/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/PewhProgrammer/Membran/graphs/contributors) who participated in this project.
 
 ## Acknowledgments
 
