@@ -6,10 +6,11 @@ public class Text2Speech : Photon.PunBehaviour {
     
     private string result = "";
     private bool stop = false;
+    public GameObject meshNode;
 
 	// Use this for initialization
 	void Start () {
-        PhotonNetwork.ConnectUsingSettings("v1.0");
+        //PhotonNetwork.ConnectUsingSettings("v1.0");
     }
 
     [PunRPC]
@@ -22,6 +23,7 @@ public class Text2Speech : Photon.PunBehaviour {
         bool stopIndicator = false;
         if (result.ToLower().Equals("stopp")) {
             stop = !stop;
+            meshNode.GetComponent<Fading>().toggleFading();
             stopIndicator = true;
         }
 
