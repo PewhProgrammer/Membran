@@ -2,9 +2,9 @@
 A collaborative project between Saarland's HBK and UdS, Germany.
 
 ## Getting Started
-Our documentation of the project is attached at the first level. [PDF,GER]
+Our documentation[GER] of the project can be found here  -  [documentation.pdf](membran_doc.pdf)
 
-Description of concept and implementation.
+It consists of a description of the concept and its implementation.
 
 ### Prerequisites
 What things you need to install the software and how to install them
@@ -28,10 +28,10 @@ For details on our code of conduct and the process for submitting pull requests 
 
 ## Authors
 
-* **Ba Thinh Tran** - *Initial work* - [PewhProgrammer](https://github.com/PewhProgrammer)
-* **Tim Düwel** - *Initial/Ongoing work* - [s8tiduew](https://github.com/s8tiduew)
-* **Johannes Geiser** - *Initial/Ongoing work*
-* **Felix Wilcken** - *Initial work*
+* **Ba Thinh Tran** - *Finished* - [PewhProgrammer](https://github.com/PewhProgrammer)
+* **Tim Düwel** - *Finished* - [s8tiduew](https://github.com/s8tiduew)
+* **Johannes Geiser** - *Finished*
+* **Felix Wilcken** - *Finished*
 
 See also the list of [contributors](https://github.com/PewhProgrammer/Membran/graphs/contributors) who participated in this project.
 
